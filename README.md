@@ -18,7 +18,7 @@ LiteResNet is a lightweight adaptation of the ResNet architecture from [Microsof
   - **`best_model_finetuned.pth`** - Final model obtained after fine-tuning.
 
 ### **Documentation**
-- **`LiteResNet-paper.pdf/`** - Technical report detailing the architecture, training methodology, evaluation metrics, and results.
+- **`LiteResNet-paper.pdf`** - Technical report detailing the architecture, training methodology, evaluation metrics, and results.
 
 ## Training Phase (Hyperparameters)
 | Parameter          | Value                    |
