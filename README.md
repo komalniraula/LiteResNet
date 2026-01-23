@@ -2,6 +2,11 @@
 
 LiteResNet is a lightweight adaptation of the ResNet architecture from [Microsoft Research](https://arxiv.org/abs/1512.03385) designed for efficient image classification. The model consists of **4,919,626 parameters**, optimizing performance while maintaining computational efficiency. This repository contains the necessary notebooks and models used for training, fine-tuning, and predicting.
 
+## 📄 Project Paper
+
+The official project paper describing the LiteResNet architecture, design decisions, and experimental results is available here:
+👉 [LiteResNet: A Lightweight ResNet Adaptation (PDF)](LiteResNet-paper.pdf)
+
 ## Repository Contents
 
 ### **Notebooks**
