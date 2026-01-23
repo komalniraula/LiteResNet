@@ -2,11 +2,15 @@
 
 LiteResNet is a lightweight adaptation of the ResNet architecture from [Microsoft Research](https://arxiv.org/abs/1512.03385) designed for efficient image classification. The model consists of **4,919,626 parameters**, optimizing performance while maintaining computational efficiency. This repository contains the necessary notebooks and models used for training, fine-tuning, and predicting.
 
+---
+
 ## 📄 Project Paper
 
 The official project paper describing the LiteResNet architecture, design decisions, and experimental results is available here:
 
 👉 [LiteResNet: A Lightweight ResNet Adaptation (PDF)](LiteResNet-paper.pdf)
+
+---
 
 ## Repository Contents
 
@@ -26,6 +30,8 @@ The official project paper describing the LiteResNet architecture, design decisi
 ### **Documentation**
 - **`LiteResNet-paper.pdf`** - Technical report detailing the architecture, training methodology, evaluation metrics, and results.
 
+---
+
 ## Training Phase (Hyperparameters)
 | Parameter          | Value                    |
 |-------------------|-------------------------|
@@ -35,6 +41,8 @@ The official project paper describing the LiteResNet architecture, design decisi
 | Weight Decay     | 0.01                     |
 | Scheduler        | CosineAnnealingLR        |
 | Min Learning Rate | 1e-6                     |
+
+---
 
 ## Fine-Tuning Phase (Hyperparameters)
 | Parameter          | Value                    |
@@ -47,8 +55,12 @@ The official project paper describing the LiteResNet architecture, design decisi
 | Scheduler        | CosineAnnealing          |
 | Min Learning Rate | 1e-6                     |
 
+---
+
 ## Usage
 To utilize the models or run the notebooks, ensure that all necessary dependencies are installed and execute the notebooks in sequence.
+
+---
 
 ## Installation
 Clone the repository and navigate to the project directory:
@@ -62,6 +74,8 @@ Ensure all dependencies are installed:
 pip install -r requirements.txt
 ```
 
+---
+
 ## Training and Fine-Tuning
 Run the training notebook:
 ```sh
@@ -72,18 +86,26 @@ Run the fine-tuning notebook:
 jupyter notebook fine_tuning.ipynb
 ```
 
+---
+
 ## Predictions 
 To generate predictions using test-time augmentation:
 ```sh
 jupyter notebook generate_predictions.ipynb
 ```
 
+---
+
 ## Model Details
 - **Architecture**: LiteResNet
 - **Total Parameters**: 4,919,626
 
+---
+
 ## Contributions
 Contributions are welcome! If you'd like to improve this project, feel free to fork the repository and submit a pull request.
+
+---
 
 ## License
 This project is open-source and available under the MIT License.
