@@ -5,6 +5,7 @@ LiteResNet is a lightweight adaptation of the ResNet architecture from [Microsof
 ## 📄 Project Paper
 
 The official project paper describing the LiteResNet architecture, design decisions, and experimental results is available here:
+
 👉 [LiteResNet: A Lightweight ResNet Adaptation (PDF)](LiteResNet-paper.pdf)
 
 ## Repository Contents
